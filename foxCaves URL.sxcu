@@ -1,0 +1,15 @@
+﻿{
+  "Version": "13.5.0",
+  "Name": "foxCaves URL",
+  "DestinationType": "URLShortener",
+  "RequestMethod": "POST",
+  "RequestURL": "https://foxcav.es/api/shorten",
+  "Parameters": {
+    "url": "$input$"
+  },
+  "Headers": {
+    "X-Foxcaves-User": "USERNAME",
+    "X-Foxcaves-Password": "PASSWORD"
+  },
+  "URL": "$json:direct_url$"
+}

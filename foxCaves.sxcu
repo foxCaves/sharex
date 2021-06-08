@@ -1,0 +1,17 @@
+﻿{
+  "Version": "13.5.0",
+  "Name": "foxCaves",
+  "DestinationType": "FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://foxcav.es/api/create",
+  "Parameters": {
+    "name": "$filename$"
+  },
+  "Headers": {
+    "X-Foxcaves-User": "USERNAME",
+    "X-Foxcaves-Password": "PASSWORD"
+  },
+  "Body": "Binary",
+  "URL": "$json:direct_url$",
+  "ThumbnailURL": "$json:thumbnail_url$"
+}
