@@ -1,9 +1,9 @@
-﻿{
+{
   "Version": "13.5.0",
   "Name": "foxCaves",
   "DestinationType": "FileUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://foxcav.es/api/create",
+  "RequestURL": "https://foxcav.es/api/v1/files",
   "Parameters": {
     "name": "$filename$"
   },
