@@ -3,7 +3,7 @@
   "Name": "foxCaves URL",
   "DestinationType": "URLShortener",
   "RequestMethod": "POST",
-  "RequestURL": "https://foxcav.es/api/shorten",
+  "RequestURL": "https://foxcav.es/api/v1/links",
   "Parameters": {
     "url": "$input$"
   },
