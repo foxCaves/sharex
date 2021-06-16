@@ -8,10 +8,10 @@
     "name": "$filename$"
   },
   "Headers": {
-    "X-Foxcaves-User": "USERNAME",
-    "X-Foxcaves-Password": "PASSWORD"
+    "Authorization": "Basic $base64:USERNAME:APIKEY$"
   },
   "Body": "Binary",
   "URL": "$json:direct_url$",
-  "ThumbnailURL": "$json:thumbnail_url$"
+  "ThumbnailURL": "$json:thumbnail_url$",
+  "DeletionURL": "https://foxcav.es/api/v1/files/$json:id$/delete?redirect=1"
 }
