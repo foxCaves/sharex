@@ -8,8 +8,8 @@
     "url": "$input$"
   },
   "Headers": {
-    "X-Foxcaves-User": "USERNAME",
-    "X-Foxcaves-Password": "PASSWORD"
+    "Authorization": "Basic $base64:USERNAME:APIKEY$"
   },
-  "URL": "$json:short_url$"
+  "URL": "$json:short_url$",
+  "DeletionURL": "https://foxcav.es/api/v1/links/$json:id$/delete?redirect=1"
 }
