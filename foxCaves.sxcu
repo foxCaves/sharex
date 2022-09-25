@@ -3,7 +3,7 @@
   "Name": "foxCaves",
   "DestinationType": "FileUploader",
   "RequestMethod": "POST",
-  "RequestURL": "https://foxcav.es/api/v1/files",
+  "RequestURL": "https://caves.fox.ax/api/v1/files",
   "Parameters": {
     "name": "$filename$"
   },
@@ -13,5 +13,5 @@
   "Body": "Binary",
   "URL": "$json:direct_url$",
   "ThumbnailURL": "$json:thumbnail_url$",
-  "DeletionURL": "https://foxcav.es/api/v1/files/$json:id$/delete?redirect=1"
+  "DeletionURL": "https://caves.fox.ax/api/v1/files/$json:id$/delete?redirect=1"
 }
