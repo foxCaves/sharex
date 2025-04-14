@@ -5,11 +5,11 @@
   "RequestMethod": "POST",
   "RequestURL": "https://foxcaves.doridian.net/api/v1/links",
   "Parameters": {
-    "url": "$input$"
+    "target": "$input$"
   },
   "Headers": {
     "Authorization": "Basic $base64:USERNAME:APIKEY$"
   },
-  "URL": "$json:short_url$",
+  "URL": "$json:url$",
   "DeletionURL": "https://foxcaves.doridian.net/api/v1/links/$json:id$/delete?redirect=1"
 }
