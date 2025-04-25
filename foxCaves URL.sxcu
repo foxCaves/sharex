@@ -3,7 +3,7 @@
   "Name": "foxCaves URL",
   "DestinationType": "URLShortener",
   "RequestMethod": "POST",
-  "RequestURL": "https://foxcaves.doridian.net/api/v1/links",
+  "RequestURL": "https://foxcav.es/api/v1/links",
   "Parameters": {
     "target": "$input$"
   },
@@ -11,5 +11,5 @@
     "Authorization": "Basic $base64:USERNAME:APIKEY$"
   },
   "URL": "$json:url$",
-  "DeletionURL": "https://foxcaves.doridian.net/api/v1/links/$json:id$/delete?redirect=1"
+  "DeletionURL": "https://foxcav.es/api/v1/links/$json:id$/delete?redirect=1"
 }
